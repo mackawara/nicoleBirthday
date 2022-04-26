@@ -2,7 +2,7 @@ document.addEventListener("readystatechange", () => {
   const show = document.getElementById("show");
   const pictureGrid = document.getElementsByClassName("picture-Grid");
   //document.getElementsByClassName("nic")[0].style.display = "flex";
-  function toggleDisplay() {
+  /* function toggleDisplay() {
     if (pictureGrid[0].style.display == "none") {
       pictureGrid[0].style.display = "flex";
       console.log(pictureGrid[0].style.display);
@@ -10,8 +10,10 @@ document.addEventListener("readystatechange", () => {
       pictureGrid[0].style.display = "none";
       console.log(pictureGrid[0].style.display);
     }
-  }
-  show.addEventListener("click", toggleDisplay);
+  } */
+  show.addEventListener("mouseenter", () => {
+    show.innerHTML = "click me to show awesome photos";
+  });
 
   const colors = ["red", "blue", "ÿellow"];
   for (let index = 0; index < colors.length; index++) {
