@@ -26,7 +26,7 @@ document.addEventListener("readystatechange", () => {
       e.target.style.backgroundColor = "red";
     });
   }
-  var countDownDate = new Date("may 10, 2022 00:00:0").getTime();
+  var countDownDate = new Date("may 10, 2023 00:00:0").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function () {
